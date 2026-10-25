@@ -1,0 +1,20 @@
+# Secrets - never commit these
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Local data created by the agent
+chat_sessions.db
+.agent_tmp/
+
+# The project you point the agent at (not part of this repo)
+vprofile-project/
+
+# Editors / logs
+.idea/
+.vscode/
+*.log
